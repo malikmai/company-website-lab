@@ -1,0 +1,49 @@
+.menuSection h2 {
+    color: #6f4e37;
+    padding: 10px 0;
+  }
+  
+  .menuSection ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .menuSection li {
+    padding: 8px 0;
+    border-bottom: 1px solid #e0e0e0;
+  }
+  
+  .menuSection li:last-child {
+    border-bottom: none;
+  }
+  .menuSection {
+    padding: 20px;
+}
+
+.menuSection h2 {
+    margin-bottom: 10px;
+}
+
+.drinkUl {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 8px;
+    padding-bottom: 8px;
+    border-bottom: 1px solid #ccc;
+}
+
+.itemName {
+    flex-grow: 1; /* Ensures it takes up any extra space */
+}
+
+.itemPrice {
+    margin-left: 20px; /* Adds some space between the item name and the price */
+    white-space: nowrap; /* Keeps the price from breaking into multiple lines */
+}

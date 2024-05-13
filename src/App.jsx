@@ -3,11 +3,11 @@ import "./App.css";
 import Home from "./Home";
 import Nav from "./Nav";
 import History from "./history";
-import Menu from "./menu";
-import Staff from "./staff";
+import Drinks from "./Drinks";
 import Contact from "./contact";
 import Links from "./Links";
 import Footer from "./Footer";
+import Employees from "./Employees";
 
 function App() {
   const [activeSection, setActiveSection] = useState("home");
@@ -15,8 +15,8 @@ function App() {
   const sections = {
     home: "",
     history: "",
-    menu: "",
-    staff: "",
+    drinks: "",
+    employees: "",
     contact: "",
     links: "",
   };
@@ -28,8 +28,8 @@ function App() {
       <hr />
       {activeSection === "home" && <Home />}
       {activeSection === "history" && <History />}
-      {activeSection === "menu" && <Menu />}
-      {activeSection === "staff" && <Staff />}
+      {activeSection === "drinks" && <Drinks />}
+      {activeSection === "employees" && <Employees />}
       {activeSection === "contact" && <Contact />}
       {activeSection === "links" && <Links />}
       <Footer />

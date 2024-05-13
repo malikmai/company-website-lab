@@ -1,0 +1,20 @@
+.historyPageDiv {
+    padding: 20px;
+    background-color: #fff; /* White background for readability */
+  }
+  
+  .historyInfoBox {
+    margin: auto;
+    max-width: 800px; /* Limit the width for better readability */
+    text-align: left;
+  }
+  
+  .historyInfoBox h1 {
+    color: #6f4e37; /* Coffee brown */
+  }
+  
+  .historyInfoBox p {
+    font-size: 16px; /* Comfortable reading size */
+    line-height: 1.6; /* Improve readability */
+  }
+  

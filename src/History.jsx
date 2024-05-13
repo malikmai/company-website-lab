@@ -1,12 +1,12 @@
 import React from "react";
-// import './History.css';
+import './History.css';
 
 function History() {
   return (
     <main>
       <div className="historyPageDiv">
         <div className="historyInfoBox">
-          <h1>Our Journey - Brewing Passion into Every Cup</h1>
+          <h1 className="historyTitle">Our Journey - Brewing Passion into Every Cup</h1>
           <p>
             Starbies began as a dream in the vibrant heart of our local
             community in 2022, conceived out of a passion for exceptional coffee

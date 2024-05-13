@@ -9,10 +9,10 @@ function Home() {
           <p className="box1Text">Have you tried the new flavors?!</p>
         </div>
         <div className="promotionalBox2">
-          <p className="box2Text">Summer's here</p>
+          <p className="box2Text">The Best Coffee Around!</p>
         </div>
         <div className="promotionalBox3">
-          <p className="box3Text">Company Favs</p>
+          <p className="box3Text">Now Selling Pastries and More!</p>
         </div>
       </div>
     </main>
