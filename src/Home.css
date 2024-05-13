@@ -1,0 +1,35 @@
+.homepageDiv {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+  }
+  
+  .promotionalBox1,
+  .promotionalBox2,
+  .promotionalBox3 {
+    flex: 1;
+    margin: 10px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  .promotionalBox1 {
+    background: linear-gradient(to right, #56ab2f, #a8e063);
+  }
+  
+  .promotionalBox2 {
+    background: linear-gradient(to right, #11998e, #38ef7d);
+  }
+  
+  .promotionalBox3 {
+    background: linear-gradient(to right, #2c3e50, #4ca1af);
+  }
+  
+  .box1Text,
+  .box2Text,
+  .box3Text {
+    color: #fff;
+  }
+  
